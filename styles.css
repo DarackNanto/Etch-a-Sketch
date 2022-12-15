@@ -1,0 +1,14 @@
+.container,
+div {
+  background-color: white;
+  border-style:solid;
+  border-color: blueviolet;
+  height: 100px;
+  width: 100px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
