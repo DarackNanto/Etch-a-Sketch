@@ -10,7 +10,13 @@ createGrid();
 function createGrid() {
   for (let i = 1; i <= 20; i++) {
     const grids = document.createElement("div");
+    
+    
+    
     grids.setAttribute("id", `grid${i}`);
+
     container.appendChild(grids);
+
+
   }
 }
