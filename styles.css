@@ -1,14 +1,13 @@
-.container,
-div {
-  background-color: white;
-  border-style:solid;
-  border-color: blueviolet;
-  height: 100px;
-  width: 100px;
+/* The grid container. Using display grid*/
+#container {
+  display: grid;
+  grid-template-columns: repeat(16, 20px);
+  grid-template-rows: repeat(16, 20px);
 }
 
-#container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+/* The grid element style*/
+#grid-element {
+  background-color: white;
+  border: 1px solid;
+  border-color: black;
 }
